@@ -21,6 +21,7 @@
 		2BEEE3171CBB5C5F00BFC8C3 /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEE30C1CBB5C5F00BFC8C3 /* NSString+Utilities.m */; };
 		2BEEE3191CBB5C5F00BFC8C3 /* UIImage+Stretch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEE3101CBB5C5F00BFC8C3 /* UIImage+Stretch.m */; };
 		2BEEE31B1CBB5C5F00BFC8C3 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEE3141CBB5C5F00BFC8C3 /* UIView+ViewController.m */; };
+		2BEEE3601CBBE03D00BFC8C3 /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEE35F1CBBE03D00BFC8C3 /* NSString+Pinyin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		2BEEE3101CBB5C5F00BFC8C3 /* UIImage+Stretch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stretch.m"; sourceTree = "<group>"; };
 		2BEEE3131CBB5C5F00BFC8C3 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		2BEEE3141CBB5C5F00BFC8C3 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		2BEEE35E1CBBE03D00BFC8C3 /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		2BEEE35F1CBBE03D00BFC8C3 /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				2BEEE3101CBB5C5F00BFC8C3 /* UIImage+Stretch.m */,
 				2BEEE3131CBB5C5F00BFC8C3 /* UIView+ViewController.h */,
 				2BEEE3141CBB5C5F00BFC8C3 /* UIView+ViewController.m */,
+				2BEEE35E1CBBE03D00BFC8C3 /* NSString+Pinyin.h */,
+				2BEEE35F1CBBE03D00BFC8C3 /* NSString+Pinyin.m */,
 			);
 			path = YYCategory;
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEEE3601CBBE03D00BFC8C3 /* NSString+Pinyin.m in Sources */,
 				2BEEE3151CBB5C5F00BFC8C3 /* NSObject+AssociatedObject.m in Sources */,
 				2BEEE3191CBB5C5F00BFC8C3 /* UIImage+Stretch.m in Sources */,
 				2BEEE2DB1CBB5C3C00BFC8C3 /* SecondViewController.m in Sources */,
